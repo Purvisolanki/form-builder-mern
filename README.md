@@ -1,11 +1,11 @@
 # Form Builder
 A Full Stack MERN app for building dynamic forms with drag and drop interface &amp; to track and view the responses received in the created form.
 
-https://easyformbuilder.netlify.app/
+
 
 (Profile picture upload only works in local development as costs money in deployed server.)
 
-![Screenshot of form builder website](https://github.com/RohanShrestha01/form-builder/assets/70142301/a4273f13-1842-46cb-aef6-b04244c8f46e)
+
 
 ## Installation
 You need to install [pnpm](https://pnpm.io/installation) first as pnpm workspace is used for this monorepo.
@@ -17,8 +17,9 @@ npm install -g pnpm
 Clone the project
 
 ```bash
-git clone https://github.com/RohanShrestha01/form-builder.git
+git clone "https://github.com/Purvisolanki/form-builder-mern"
 ```
+
 
 then navigate into the project
 
@@ -38,7 +39,7 @@ then build the shared validation package
 pnpm -F @form-builder/validation build
 ```
 
-Also, create .env file with the help of .env.example file for both client and server. You can use [Brevo](https://www.brevo.com/) for free SMTP server and [MongoDB Atlas](https://www.mongodb.com/atlas/database) for database.
+Also, create .env file for both client and server. You can use [Brevo](https://www.brevo.com/) for free SMTP server and [MongoDB Atlas](https://www.mongodb.com/atlas/database) for database.
 
 Run the project with command
 
