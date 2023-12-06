@@ -5,6 +5,8 @@ A Full Stack MERN app for building dynamic forms with drag and drop interface &a
 
 (Profile picture upload only works in local development as costs money in deployed server.)
 
+Deployed Link: https://easyformbuilder.netlify.app
+
 
 
 ## Installation
